@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script><link href="https://wjyaksuma.github.io/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  
+<head>
+<title>Script HTML buat Kamu</title>
+<link rel="icon" type="image/x-icon" href="https://malasid.github.io/favicon.png">
+<meta name="description" content="HTML Bucin Malas.id">
+
+</head>
+<style>
+:root {
+--ukuran-teks: 16px;
+--gaya-font: 'Nunito Sans', sans-serif;
+}
+</style>
+<body>
+	
+   <!-- Ganti Audio di sini -->
+   <audio src="https://pomf2.lain.la/f/x0s85jq5.MP3" id="linkmp3" class="sembunyi"></audio>
+   
+   <div id="bodyblur"><img src="" id="wallpaper"/></div>
+   
+   <div id='Content'>
+
+     <div id="ftAwal">
+       <!-- Stiker Pembuka -->
+       <img src="https://pomf2.lain.la/f/ob4bz063.jpeg" id="ftoAwal"/>
+     </div>
+
+     <div id="loveIn">
+       <!-- Tombol LOVE --><label class='lovein'>❤️</label>
+     </div>
+     <p id="ket">Refresh 2X Lalu Tekan Lovenya Mbak!</p>
+
+     <div class="kumpulan">
+     	<!-- Kumpulan Background -->
+     	<img src="https://pomf2.lain.la/f/nanw7qi4.png" id="wallpaper1"/>
+     	<img src="https://pomf2.lain.la/f/kin6x2u0.png" id="wallpaper2"/>
+         <img src="https://pomf2.lain.la/f/oz3dwxgd.png" id="wallpaper3"/>
+         <img src="https://pomf2.lain.la/f/o2t8l4h.png" id="wallpaper4"/>
+         <img src="https://pomf2.lain.la/f/ffdej6bj.png" id="wallpaper5"/>
+         <img src="https://pomf2.lain.la/f/ozy59gap.png" id="wallpaper6"/>
+         <img src="https://pomf2.lain.la/f/o2t8l4h.png" id="wallpaper7"/>
+         <img src="https://pomf2.lain.la/f/oz3dwxgd.png" id="wallpaper8"/>
+         
+         <!-- Foto/Stiker Akhir -->
+         <img src="https://feeldreams.github.io/bolehkah/heart.png" id="ftoAkhir"/>
+     </div>
+     
+     <div><blockquote id='bq'>
+       <p id="kalimat" style="text-align:center"></p>
+     </blockquote></div>
+     
+     <!-- Tombol Kirim Pesan -->
+     <div id="Tombol">
+       <a id="By">&#128140; Balas</a>
+     </div>
+
+   </div>
+
+<!-- Jangan Edit Bagian Ini --><script>
+  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2500, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);Content.style = "opacity:1;margin-top:14vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
+  const inip = []; const iniwp = []; iden = 1; iniwp[1] = wallpaper1.src; wallpaper.src = iniwp[1]; iniwp[2] = wallpaper2.src; iniwp[3] = wallpaper3.src; iniwp[4] = wallpaper4.src; iniwp[5] = wallpaper5.src; iniwp[6] = wallpaper6.src; iniwp[7] = wallpaper7.src; iniwp[8] = wallpaper8.src;
+
+inip[1] = "hey aguss,kamu kemarin badmood banget yaa<br>maaf ya kalau saya bikin bosen";
+inip[2] = "bolehkah aku meminta satu hal kepadamu?<br>kalau kamu,ngerasa bosen gapapa ko" ;
+inip[3] = "saya juga harus sadar<br>kalau hubungan jarak jauh itu<br>bukan hal mudah dan menyenangkan";
+inip[4] = "apalagi dengan karakter saya yang kayak gini<br>saya bukan orang yang asik kadang saya juga ngeboseninkan wkwk";
+inip[5] = "ditambah dengan kondisi saya yang lagi kayak gini wkwk";
+inip[6] = "maaf ya jika respon saya akhir akhir ini<br> mungkin malah bikin kamu bad mood wkwk";
+inip[7] = "gapapa kok kalau kamu ngerasa bosen <br>gapapa juga kok kalau kamu mau maen sama cowok lain,mungkin";
+inip[8] = "yang terpenting kamu selalu bahagia dan sehat amin wkwk";
+
+totalPesan = 8; //Input total pesan (slide) di sini ya!
+
+function waktumuncul(){
+	  setTimeout(kalimatakhir,700);
+      setTimeout(kalimatakhir,6900);
+      setTimeout(kalimatakhir,15000);
+      setTimeout(kalimatakhir,22100);
+      setTimeout(kalimatakhir,31400);
+      setTimeout(kalimatakhir,37700);
+      setTimeout(kalimatakhir,44500);
+      setTimeout(kalimatakhir,52700);
+}
+</script>
+<script src="https://malasid.github.io/html/maafku.js"></script>
+<!-- Sampai Sini -->
+</body>
+</html>
